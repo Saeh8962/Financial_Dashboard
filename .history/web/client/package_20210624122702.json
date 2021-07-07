@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "algebra": "^0.12.7",
+    "algebra.js": "^0.2.6",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "latex-parser": "^0.6.2",
+    "nan": "^2.13.2",
+    "node-email-sender": "^1.0.1",
+    "node-pre-gyp": "^0.13.0",
+    "nodeunit": "^0.9.2",
+    "pg": "^8.6.0",
+    "pg-promise": "^10.10.2",
+    "react": "^16.0.0",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-dropdown": "^1.7.0",
+    "react-jax": "^1.1.0",
+    "react-latex": "^1.2.0",
+    "react-native":"*",
+    "react-latex-next": "^1.1.0",
+    "react-load-image": "^0.1.7",
+    "react-mathjax": "^1.0.1",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^4.0.3",
+    "react-strap": "0.0.1",
+    "reactstrap": "^8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

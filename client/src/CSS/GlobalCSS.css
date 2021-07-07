@@ -1,0 +1,305 @@
+.ALL{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+}
+
+.image{
+  width:100px;
+  height:100px;
+}
+
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4dafc;
+  margin-top:auto;
+  margin:0;
+  padding:0;
+  overflow-y: auto;
+}
+
+.HeaderInfo{
+  font-size: 30px;
+  padding: 15px 15px;
+  text-align: center;
+  font-family: FuturaBookFont___;
+}
+
+.FormWrap{
+  text-align: center
+}
+
+.FormField{
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.FormFields{
+  max-width:300px;
+  min-width:300px;
+}
+
+.FormField_Label{
+  display: block;
+  text-align: left;
+  font-size: 25px;
+}
+
+.FormField_Input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 175px;
+}
+
+.FormField_Input_LS{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+
+.ArtistsDisplayWrapper{
+  font-family:"FuturaBookFont___";
+  padding: 10px 10px;
+  height: 350px;
+  overflow-y: auto;
+}
+
+.ArtistLine{
+	padding-top: 10px;
+	display:inline-flex;
+	vertical-align:middle;
+	line-height:45px;
+	float:left;
+}
+
+.ArtistDisplayElement{
+    font-family:"FuturaBookFont___";
+    float:left;
+    font-size:15 px;
+    max-width:125px;
+    word-wrap:break-word;
+    text-align:left;
+}
+
+.play{
+	float:right;
+}
+
+.playButton{
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+  /* .playButton:hover {
+    background-color:#01FF70;
+    color: #White;
+    cursor: pointer;
+  } */
+
+.removeButton{
+    background-color: transparent;
+    font-family: FuturaBookFont___;
+    color: Black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border:none;
+    margin-left: 10px;
+    font-weight: 900;
+}
+  /* .removeButton:hover {
+    background-color:#d3d3d3;
+    color: #White;
+    cursor: pointer;
+  } */
+
+.Button {
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  /* .Button:hover {
+    background-color:#01FF70;
+    color: #White;
+    cursor: pointer;
+  } */
+
+.ButtonNoRight {
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  /* .ButtonNoRight:hover {
+    background-color:#01FF70;
+    color: #White;
+    cursor: pointer;
+  } */
+
+.artistButton {
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    max-width:170px;
+    min-width:170px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  /* .artistButton:hover {
+    background-color:#01FF70;
+    color: #White;
+    cursor: pointer;
+  } */
+
+.playArtistButton {
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  /* .playArtistButton:hover {
+    background-color:#01FF70;
+    color: #White;
+    cursor: pointer;
+  } */
+
+  .buttonsDiv{
+    padding: 20px 30px;
+    text-align: center;
+  }
+
+  .HomePageHeader{
+    font-family: FuturaBookFont___;
+    margin: auto;
+    font-size: 40px;
+    width: 75%;
+    padding: 10px;
+  }
+
+  .HomePagedesc{
+    font-family: FuturaBookFont___;
+    margin: auto;
+    font-size: 30px;
+    width: 75%;
+    padding: 10px;
+  }
+
+  .CenterWrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .HomeCenterWrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+.dropDiv{
+  display:inline-flex;
+  vertical-align:middle;
+}
+
+
+  .FakeDropDown{
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border: none;
+    min-width:225px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 15px;
+  }
+
+  /* .FakeDropDown:hover {
+    color: #White;
+    cursor: pointer;
+  } */
+
+  .realDropDown{
+    background-color: white;
+    font-family: FuturaBookFont___;
+    color: Black;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+  }
+
+  /* .realDropDown:hover {
+    color: #White;
+    cursor: pointer;
+  } */
+
+  @font-face {
+      font-family:"FuturaBookFont___";
+      src: url("./fonts/FuturaBookFont___.TTF");
+  }
+
+  #SignButton{
+    width:60%;
+  }
+*, ::before, ::after {
+  box-sizing: border-box;
+}
